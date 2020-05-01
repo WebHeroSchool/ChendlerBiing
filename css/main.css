@@ -1,0 +1,31 @@
+.block{
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	padding: 100px 0 0 0;
+	text-transform: uppercase;
+}
+@media (min-width: 321px){
+	.block{
+	font-size: 16px;
+	color: red;
+	}
+}
+@media (min-width: 361px){
+	.block{
+	font-size: 18px;
+	color: green;
+	}
+}
+@media (min-width: 767px){
+	.block{
+	font-size: 22px;
+	color: orange;
+	}
+}
+@media (min-width: 1021px){
+	.block{
+	font-size: 35px;
+	color: blue;
+	}
+}
